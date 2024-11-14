@@ -4,8 +4,6 @@ const movies = [
     { title: "La zona vacía", rating: "⭐ 8.0", genre: "Drama", duration: "107 min", img: "../img/lzv.jpg" },
     { title: "Película 2", rating: "⭐ 8.0", genre: "Drama", duration: "130 min", img: "poster2.jpg" },
     { title: "Película 2", rating: "⭐ 8.0", genre: "Drama", duration: "130 min", img: "poster2.jpg" },
-    { title: "Película 2", rating: "⭐ 8.0", genre: "Drama", duration: "130 min", img: "poster2.jpg" },
-    { title: "Película 2", rating: "⭐ 8.0", genre: "Drama", duration: "130 min", img: "poster2.jpg" },
 
 ];
 
