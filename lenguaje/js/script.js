@@ -1,7 +1,7 @@
 const movies = [
-    { title: "Película 1", rating: "⭐ 7.5", genre: "Acción", duration: "120 min", img: "../img/venom.jpg" },
-    { title: "Película 2", rating: "⭐ 8.0", genre: "Drama", duration: "130 min", img: "poster2.jpg" },
-    { title: "Película 2", rating: "⭐ 8.0", genre: "Drama", duration: "130 min", img: "poster2.jpg" },
+    { title: "Venom: El último baile", rating: "⭐ 7.7", genre: "Acción, Ciencia Ficción, Comedia, Fantasía.", duration: "120 min", img: "../img/venom.jpg" },
+    { title: "Gladiator II", rating: "⭐ 7.0", genre: "Drama histórico, Acción", duration: "150 min", img: "../img/gl2.jpg" },
+    { title: "La zona vacía", rating: "⭐ 8.0", genre: "Drama", duration: "107 min", img: "../img/lzv.jpg" },
     { title: "Película 2", rating: "⭐ 8.0", genre: "Drama", duration: "130 min", img: "poster2.jpg" },
     { title: "Película 2", rating: "⭐ 8.0", genre: "Drama", duration: "130 min", img: "poster2.jpg" },
     { title: "Película 2", rating: "⭐ 8.0", genre: "Drama", duration: "130 min", img: "poster2.jpg" },

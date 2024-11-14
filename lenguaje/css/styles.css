@@ -1,4 +1,3 @@
-/* Reset y configuraciones básicas */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +10,6 @@ body {
     line-height: 1.6;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -26,10 +24,11 @@ body {
     font-size: 1.8em;
     color: #ff4c4c;
     font-weight: 700;
-    transition: color 0.3s;
+    transition: color 0.3s, transform 0.3s;
 }
 .logo:hover {
     color: #ff2222;
+    transform: scale(1.1);
 }
 .nav-links {
     list-style: none;
@@ -40,13 +39,13 @@ body {
     color: #f0f0f0;
     text-decoration: none;
     font-weight: 400;
-    transition: color 0.3s;
+    transition: color 0.3s, transform 0.3s;
 }
 .nav-links a:hover {
     color: #ff4c4c;
+    transform: scale(1.1);
 }
 
-/* Featured Section */
 .featured-section {
     padding: 3em 1em;
     text-align: center;
@@ -59,7 +58,6 @@ body {
     letter-spacing: 2px;
 }
 
-/* Movie Grid */
 .movie-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -77,12 +75,16 @@ body {
     animation: fadeIn 0.6s forwards;
 }
 .movie-card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    transform: scale(1.08);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
 }
 .movie-card img {
     width: 100%;
-    border-bottom: 2px solid #ff4c4c;
+    border-bottom: 3px solid #ff4c4c;
+    transition: filter 0.3s;
+}
+.movie-card:hover img {
+    filter: brightness(0.8);
 }
 .movie-info {
     padding: 1.5em;
@@ -112,13 +114,13 @@ body {
     border-radius: 5px;
     text-decoration: none;
     font-weight: 500;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 .view-details:hover {
     background-color: #ff2222;
+    transform: scale(1.1);
 }
 
-/* Load More Button */
 .load-more {
     margin-top: 2em;
     padding: 0.8em 2.5em;
@@ -128,15 +130,15 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
     display: block;
     margin: 2em auto;
 }
 .load-more:hover {
     background-color: #ff2222;
+    transform: scale(1.1);
 }
 
-/* Footer */
 footer {
     background-color: #222;
     padding: 2em 1em;
@@ -163,18 +165,22 @@ footer {
     color: #bbb;
     text-decoration: none;
     font-size: 0.9em;
-    transition: color 0.3s;
+    transition: color 0.3s, transform 0.3s;
 }
 .quick-links a:hover,
 .social-links a:hover {
     color: #ff4c4c;
+    transform: scale(1.1);
 }
 .social-links a img {
     width: 24px;
     height: 24px;
+    transition: filter 0.3s;
+}
+.social-links a:hover img {
+    filter: brightness(1.5);
 }
 
-/* Animations */
 @keyframes fadeIn {
     to {
         opacity: 1;
@@ -182,7 +188,6 @@ footer {
     }
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -195,4 +200,3 @@ footer {
         object-fit: cover;
     }
 }
-    
