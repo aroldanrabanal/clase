@@ -22,17 +22,15 @@ public class VueloImpl implements Vuelo {
     private Double precio;
     private Integer numeroPlazas;
     private Integer numeroPasajeros;
-    private Date fechaSalida;
     private Double recaudacion;
 
     //2 constructor
-    public VueloImpl(String codigo, String destino, Double precio, Integer numeroPlazas, Integer numeroPasajeros, Date fechaSalida, Double recaudacion) {
+    public VueloImpl(String codigo, String destino, Double precio, Integer numeroPlazas, Integer numeroPasajeros, Double recaudacion) {
         this.codigo = codigo;
         this.destino = destino;
         this.precio = precio;
         this.numeroPlazas = numeroPlazas;
         this.numeroPasajeros = numeroPasajeros;
-        this.fechaSalida = fechaSalida;
         this.recaudacion = recaudacion;
     }
 
@@ -67,12 +65,15 @@ public class VueloImpl implements Vuelo {
         return recaudacion;
     }
 
-    public Date getFechaSalida() {
-        return fechaSalida;
-    }
 
 
     //4 otros metodos
+    // nombreInterface nombre=new nombreClase();
+    Fecha f = new FechaImpl(6,5,2005);
+    Persona p = new PersonaImpl("Ángel", "Roldán Rabanal", "29497781M", 19);
     //5 toString
+    public String toString() {
+        return getCodigo()+" ("+getDestino()+") - " +p+" - "+f;
+    }
 
 }
