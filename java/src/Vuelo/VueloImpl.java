@@ -1,7 +1,5 @@
 package Vuelo;
 
-import java.util.Date;
-
 /**
  * Código de vuelto - cadena y cosnsultable - representa el código del vuelo
  * Destino - cadena y consultuble - representa el destino
@@ -23,15 +21,19 @@ public class VueloImpl implements Vuelo {
     private Integer numeroPlazas;
     private Integer numeroPasajeros;
     private Double recaudacion;
+    private Persona piloto;
+    private Fecha fecha;
 
     //2 constructor
-    public VueloImpl(String codigo, String destino, Double precio, Integer numeroPlazas, Integer numeroPasajeros, Double recaudacion) {
+    public VueloImpl(String codigo, String destino, Double precio, Integer numeroPlazas, Integer numeroPasajeros, Double recaudacion,Persona piloto, Fecha fecha) {
         this.codigo = codigo;
         this.destino = destino;
         this.precio = precio;
         this.numeroPlazas = numeroPlazas;
         this.numeroPasajeros = numeroPasajeros;
         this.recaudacion = recaudacion;
+        this.piloto = piloto;
+        this.fecha = fecha;
     }
 
     //3 getter and setters
@@ -65,15 +67,30 @@ public class VueloImpl implements Vuelo {
         return recaudacion;
     }
 
+    public Fecha getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(Fecha fecha) {
+        this.fecha = fecha;
+    }
+
+    public Persona getPiloto() {
+        return piloto;
+    }
+
+    public void setPiloto(Persona piloto) {
+        this.piloto = piloto;
+    }
+
 
 
     //4 otros metodos
     // nombreInterface nombre=new nombreClase();
-    Fecha f = new FechaImpl(6,5,2005);
-    Persona p = new PersonaImpl("Ángel", "Roldán Rabanal", "29497781M", 19);
+
     //5 toString
     public String toString() {
-        return getCodigo()+" ("+getDestino()+") - " +p+" - "+f;
+        return getCodigo()+" ("+getDestino()+") - " +getPiloto()+" - "+getFecha();
     }
 
 }
