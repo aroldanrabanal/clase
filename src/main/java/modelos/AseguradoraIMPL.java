@@ -9,6 +9,7 @@ public class AseguradoraIMPL {
     private DireccionIMPL direccion;
     private String telefono;
     private List<VehiculoIMPL> vehiculosAsegurados;
+    private List<PolizaIMPL> listPolizas;
 
     //Constructor
     public AseguradoraIMPL(Integer id, String nombre, DireccionIMPL direccion, String telefono, List<VehiculoIMPL> vehiculosAsegurados) {
@@ -77,6 +78,14 @@ public class AseguradoraIMPL {
 
     public void setVehiculosAsegurados(List<VehiculoIMPL> vehiculosAsegurados) {
         this.vehiculosAsegurados = vehiculosAsegurados;
+    }
+
+    public List<PolizaIMPL> getListPolizas() {
+        return listPolizas;
+    }
+
+    public void setListPolizas(List<PolizaIMPL> listPolizas) {
+        this.listPolizas = listPolizas;
     }
 
 

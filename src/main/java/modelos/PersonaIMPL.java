@@ -48,9 +48,9 @@ public class PersonaIMPL {
         } else {
             throw new IllegalArgumentException("NIF no valido");
         }
-        if (UtilididadesPersona.esMayorEdad(this)){
-            this.fechaNacimiento = fechaNacimiento;
-        } else {
+        this.fechaNacimiento = fechaNacimiento;
+
+        if (!UtilididadesPersona.esMayorEdad(this)){
             throw new IllegalArgumentException("No es mayor de edad");
         }
         this.direccion = direccion;
