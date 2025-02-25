@@ -88,6 +88,22 @@ public class AseguradoraIMPL {
         this.listPolizas = listPolizas;
     }
 
+    public void addPoliza(PolizaIMPL poliza) {
+        this.listPolizas.add(poliza);
+        System.out.println("Poliza añadida");
+    }
+
+    public boolean removePoliza(PolizaIMPL poliza) {
+        if (this.listPolizas.contains(poliza)) {
+            this.listPolizas.remove(poliza);
+            System.out.println("Poliza eliminada");
+            return true;
+        } else {
+            System.out.println("Poliza no encontrada");
+            return false;
+        }
+    }
+
 
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;

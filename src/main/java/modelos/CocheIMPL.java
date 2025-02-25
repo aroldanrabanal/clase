@@ -5,6 +5,8 @@ import java.util.Objects;
 
 public class CocheIMPL extends VehiculoIMPL {
     private int numPuertas;
+
+
     public enum TipoCombustible {
         GASOLINA, DIESEL, ELECTRICO, HIBRIDO
     }

@@ -46,9 +46,9 @@ public class UtilidadesVehiculo {
         return nuevaV;
     }
 
-    public static boolean validaFechaMatriculacion(LocalDate fecha){
+    public static boolean validaFechaMatriculacion(LocalDate fecha) {
         LocalDate fechaHoy = LocalDate.now();
-        return !fechaHoy.isAfter(fecha);
+        return !fecha.isAfter(fechaHoy);
     }
 
 }
