@@ -1,0 +1,25 @@
+Asunto: Solicitud de Prácticas en The Game Kitchen
+
+Estimado equipo de The Game Kitchen,
+
+Mi nombre es Ángel Roldán Rabanal, soy estudiante de 1º de Desarrollo de Aplicaciones Multiplataforma en SAFA Nuestra Señora de los Reyes, y me gustaría expresar mi interés en realizar prácticas en su estudio de desarrollo.
+
+Soy un apasionado de los videojuegos y me encataría poder dedicarme a su desarrollo, especialmente del estilo que ustedes han desarrollado en títulos como Blasphemous.
+
+He estado investigando y se que trabajais principalmente con C#, ya que vuestro motor principal es Unity en juegos como Blasphemous 1 y 2, a el cual le vais a sacar un DLC el 31/10/2024 llamado Mea Culpa.
+
+Otro lanzamiento que teneís programado en 2025 es The Stone of Madness y seguir desarrollando All On Board!
+
+Si que es cierto que yo no domino Unity, me encataría aprender, algunos lenguajes en los cual me desenvuelvo de una buena manera son Python, PHP, JavaScript y alguno más.
+
+Y de experiencia llevo un año más o menos trabajando para la Dirección Central de SAFA trabajando con PHP, JavaScript, SQL, y lenguajes de marcas, también el uso de Metronic y Bootstrap y de algunas apis.
+
+Estaré encantado de tener la oportunidad de colaborar con ustedes y aprender en un entorno tan creativo como el suyo. Quedo a su disposición para una entrevista o cualquier información adicional que necesiten.
+
+Muchas gracias por su tiempo y consideración.
+
+Un cordial saludo,
+Ángel Roldán Rabanal
+640280151
+aroldanrabanal@safareyes.es
+https://github.com/aroldanrabanal

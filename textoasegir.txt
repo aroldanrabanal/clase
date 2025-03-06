@@ -1,0 +1,22 @@
+Asunto: Solicitud de Prácticas en The Game Kitchen
+
+Estimado equipo de The Game Kitchen,
+
+Mi nombre es [Tu Nombre], soy estudiante de [tu carrera] en [nombre de la universidad o instituto], y me gustaría expresar mi interés en realizar prácticas en su estudio de desarrollo.
+
+Soy un apasionado de los videojuegos, especialmente del estilo que ustedes han desarrollado en títulos como Blasphemous. He seguido su trabajo de cerca y admiro la manera en que integran elementos de la cultura y el folclore español en una experiencia interactiva tan profunda.
+
+En mi formación académica, he adquirido conocimientos en C# y Unity, además de experiencia en [otros lenguajes, motores o herramientas relevantes]. Estoy convencido de que las prácticas en su estudio me permitirían aprender de profesionales con experiencia, y al mismo tiempo, contribuir con mis habilidades a los proyectos en los que estén trabajando.
+
+Adjunto a este correo mi currículum y un enlace a mi portafolio en el que pueden ver algunos de mis proyectos personales.
+
+Estaré encantado de tener la oportunidad de colaborar con ustedes y aprender en un entorno tan creativo como el suyo. Quedo a su disposición para una entrevista o cualquier información adicional que necesiten.
+
+Muchas gracias por su tiempo y consideración.
+
+Un cordial saludo,
+[Tu Nombre]
+[Tu Número de teléfono]
+[Tu Correo electrónico]
+[Enlace a tu portafolio (si tienes uno)]
+
